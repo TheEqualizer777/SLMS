@@ -1,0 +1,82 @@
+body
+{
+  background-attachment: fixed;
+  background-image: linear-gradient(#2980b9,#2c3e50);
+}
+  .main
+  {
+    postion: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    overflow:auto;
+    border-radius: 10px;
+    padding: 80px;
+    font-family: Lato;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    color: white;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  }
+  .main:before
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px);
+    background: inherit;
+  }
+  table
+  {
+    width: 100%;
+    border-color: #3E8AB5;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
+  }
+  td
+  {
+    font-weight: bold;
+    font-family:Tahoma  ;
+    text-align: center;
+    height: 50px;
+  }
+  input[type=text]
+      {
+        background: transparent;
+        width: 65%;
+        padding: 2px 10px;
+        margin: 18px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #c4e0e5;
+      }
+  input[type=submit]
+      {
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .3);
+        background: transparent;
+        border: none;
+        color:orange;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 4px 2px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        width: 100%;
+      }
+  caption
+  {
+    font-weight: bold;
+    font-size: 38px;
+    color: #1EC0A4;
+  }
+  input[type=submit]:hover
+      {
+        background-image: linear-gradient(170deg,#c31432,#240b36);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        color :#69b2fc;
+      }
